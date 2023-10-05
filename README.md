@@ -13,4 +13,10 @@ SwiftUI + web3swift
 # Log
 - 2023.09.27
   - Init Commit
-  - Prototype Design Added 
+  - Prototype Design Added
+- 2023.10.05
+  - Sepolia TestNet
+    - Generate MnemonicKey
+    - Create Address
+    - Get Balance
+  - Some view's Added 
