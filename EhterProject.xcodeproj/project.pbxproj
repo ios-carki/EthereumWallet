@@ -11,11 +11,23 @@
 		0B92423F2AC3B87700C123FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92423E2AC3B87700C123FF /* ContentView.swift */; };
 		0B9242412AC3B87800C123FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9242402AC3B87800C123FF /* Assets.xcassets */; };
 		0B9242442AC3B87800C123FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9242432AC3B87800C123FF /* Preview Assets.xcassets */; };
-		0B92424C2AC3B90100C123FF /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = 0B92424B2AC3B90100C123FF /* web3swift */; };
 		0B92424E2AC3B99C00C123FF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92424D2AC3B99C00C123FF /* ContentViewModel.swift */; };
 		0B9242502AC4113100C123FF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92424F2AC4113100C123FF /* MainView.swift */; };
 		0B9242522AC4115200C123FF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0B9242512AC4115200C123FF /* .gitignore */; };
 		0B9242562AC411B200C123FF /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242552AC411B200C123FF /* Color+Extension.swift */; };
+		0B9242592ACCEE7200C123FF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242582ACCEE7200C123FF /* TestView.swift */; };
+		0B92425B2ACCEE7A00C123FF /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92425A2ACCEE7A00C123FF /* TestViewModel.swift */; };
+		0B9242A12ACE548400C123FF /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = 0B9242A02ACE548400C123FF /* web3swift */; };
+		0B9242A72ACE9C7900C123FF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242A62ACE9C7900C123FF /* LoginView.swift */; };
+		0B9242AA2ACE9D3100C123FF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242A92ACE9D3100C123FF /* CustomButton.swift */; };
+		0B9242AD2ACE9DEB00C123FF /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242AC2ACE9DEB00C123FF /* CreateAccountView.swift */; };
+		0B9242AF2ACEA86F00C123FF /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242AE2ACEA86F00C123FF /* LabelView.swift */; };
+		0B9242B12ACEA94C00C123FF /* ImportAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242B02ACEA94C00C123FF /* ImportAccountView.swift */; };
+		0B9242B42ACEAC1C00C123FF /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242B32ACEAC1C00C123FF /* CreateAccountViewModel.swift */; };
+		0B9242B82ACEADA100C123FF /* MnemonicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242B72ACEADA100C123FF /* MnemonicBuilder.swift */; };
+		0B9242BA2ACEAF2200C123FF /* SeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242B92ACEAF2200C123FF /* SeedView.swift */; };
+		0B9242BC2ACEB1CA00C123FF /* .gitignore  in Resources */ = {isa = PBXBuildFile; fileRef = 0B9242BB2ACEB1CA00C123FF /* .gitignore  */; };
+		D8C7BBB8E2E73B3970F4D7C3 /* Pods_EhterProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E88117F6E475DECEF81D58 /* Pods_EhterProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,20 @@
 		0B92424F2AC4113100C123FF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0B9242512AC4115200C123FF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0B9242552AC411B200C123FF /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		0B9242582ACCEE7200C123FF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		0B92425A2ACCEE7A00C123FF /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		0B9242A62ACE9C7900C123FF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0B9242A92ACE9D3100C123FF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0B9242AC2ACE9DEB00C123FF /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		0B9242AE2ACEA86F00C123FF /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		0B9242B02ACEA94C00C123FF /* ImportAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportAccountView.swift; sourceTree = "<group>"; };
+		0B9242B32ACEAC1C00C123FF /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		0B9242B72ACEADA100C123FF /* MnemonicBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicBuilder.swift; sourceTree = "<group>"; };
+		0B9242B92ACEAF2200C123FF /* SeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedView.swift; sourceTree = "<group>"; };
+		0B9242BB2ACEB1CA00C123FF /* .gitignore  */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitignore "; sourceTree = "<group>"; };
+		2233684B0356FAB46C970A11 /* Pods-EhterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhterProject.debug.xcconfig"; path = "Target Support Files/Pods-EhterProject/Pods-EhterProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D29458DFEC46B2C00C5565DF /* Pods-EhterProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhterProject.release.xcconfig"; path = "Target Support Files/Pods-EhterProject/Pods-EhterProject.release.xcconfig"; sourceTree = "<group>"; };
+		F5E88117F6E475DECEF81D58 /* Pods_EhterProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EhterProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B92424C2AC3B90100C123FF /* web3swift in Frameworks */,
+				0B9242A12ACE548400C123FF /* web3swift in Frameworks */,
+				D8C7BBB8E2E73B3970F4D7C3 /* Pods_EhterProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +72,11 @@
 		0B9242302AC3B87700C123FF = {
 			isa = PBXGroup;
 			children = (
+				0B9242BB2ACEB1CA00C123FF /* .gitignore  */,
 				0B92423B2AC3B87700C123FF /* EhterProject */,
 				0B92423A2AC3B87700C123FF /* Products */,
+				8A5F25E74926F72DF137A207 /* Pods */,
+				950F060156C63BE611AA7841 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +91,14 @@
 		0B92423B2AC3B87700C123FF /* EhterProject */ = {
 			isa = PBXGroup;
 			children = (
+				0B9242A22ACE9C5400C123FF /* ETH_Wallet */,
+				0B9242572ACCEE6900C123FF /* Screen */,
 				0B9242532AC4119F00C123FF /* Helper */,
 				0B92423C2AC3B87700C123FF /* EhterProjectApp.swift */,
 				0B92423E2AC3B87700C123FF /* ContentView.swift */,
 				0B9242402AC3B87800C123FF /* Assets.xcassets */,
 				0B9242422AC3B87800C123FF /* Preview Content */,
 				0B92424D2AC3B99C00C123FF /* ContentViewModel.swift */,
-				0B92424F2AC4113100C123FF /* MainView.swift */,
 				0B9242512AC4115200C123FF /* .gitignore */,
 			);
 			path = EhterProject;
@@ -85,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				0B9242542AC411A800C123FF /* Extensions */,
+				0B9242B72ACEADA100C123FF /* MnemonicBuilder.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -97,6 +129,87 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		0B9242572ACCEE6900C123FF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242582ACCEE7200C123FF /* TestView.swift */,
+				0B92425A2ACCEE7A00C123FF /* TestViewModel.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		0B9242A22ACE9C5400C123FF /* ETH_Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242B22ACEAC0E00C123FF /* ViewModel */,
+				0B9242A82ACE9D2B00C123FF /* View */,
+				0B9242A32ACE9C5D00C123FF /* App */,
+			);
+			path = ETH_Wallet;
+			sourceTree = "<group>";
+		};
+		0B9242A32ACE9C5D00C123FF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242AB2ACE9DDC00C123FF /* Auth */,
+				0B9242A52ACE9C6D00C123FF /* MainView */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0B9242A52ACE9C6D00C123FF /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				0B92424F2AC4113100C123FF /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		0B9242A82ACE9D2B00C123FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242A92ACE9D3100C123FF /* CustomButton.swift */,
+				0B9242AE2ACEA86F00C123FF /* LabelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B9242AB2ACE9DDC00C123FF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242A62ACE9C7900C123FF /* LoginView.swift */,
+				0B9242AC2ACE9DEB00C123FF /* CreateAccountView.swift */,
+				0B9242B92ACEAF2200C123FF /* SeedView.swift */,
+				0B9242B02ACEA94C00C123FF /* ImportAccountView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0B9242B22ACEAC0E00C123FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242B32ACEAC1C00C123FF /* CreateAccountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8A5F25E74926F72DF137A207 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2233684B0356FAB46C970A11 /* Pods-EhterProject.debug.xcconfig */,
+				D29458DFEC46B2C00C5565DF /* Pods-EhterProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		950F060156C63BE611AA7841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E88117F6E475DECEF81D58 /* Pods_EhterProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B9242472AC3B87800C123FF /* Build configuration list for PBXNativeTarget "EhterProject" */;
 			buildPhases = (
+				A64E27B37245E07E40E7B836 /* [CP] Check Pods Manifest.lock */,
 				0B9242352AC3B87700C123FF /* Sources */,
 				0B9242362AC3B87700C123FF /* Frameworks */,
 				0B9242372AC3B87700C123FF /* Resources */,
+				86DF308174426D89FA8E11D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,7 +229,7 @@
 			);
 			name = EhterProject;
 			packageProductDependencies = (
-				0B92424B2AC3B90100C123FF /* web3swift */,
+				0B9242A02ACE548400C123FF /* web3swift */,
 			);
 			productName = EhterProject;
 			productReference = 0B9242392AC3B87700C123FF /* EhterProject.app */;
@@ -145,7 +260,7 @@
 			);
 			mainGroup = 0B9242302AC3B87700C123FF;
 			packageReferences = (
-				0B92424A2AC3B90100C123FF /* XCRemoteSwiftPackageReference "web3swift" */,
+				0B92429F2ACE548400C123FF /* XCRemoteSwiftPackageReference "web3swift" */,
 			);
 			productRefGroup = 0B92423A2AC3B87700C123FF /* Products */;
 			projectDirPath = "";
@@ -162,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9242442AC3B87800C123FF /* Preview Assets.xcassets in Resources */,
+				0B9242BC2ACEB1CA00C123FF /* .gitignore  in Resources */,
 				0B9242522AC4115200C123FF /* .gitignore in Resources */,
 				0B9242412AC3B87800C123FF /* Assets.xcassets in Resources */,
 			);
@@ -169,15 +285,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86DF308174426D89FA8E11D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EhterProject/Pods-EhterProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EhterProject/Pods-EhterProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EhterProject/Pods-EhterProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A64E27B37245E07E40E7B836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EhterProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B9242352AC3B87700C123FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9242592ACCEE7200C123FF /* TestView.swift in Sources */,
+				0B9242B82ACEADA100C123FF /* MnemonicBuilder.swift in Sources */,
 				0B92423F2AC3B87700C123FF /* ContentView.swift in Sources */,
+				0B9242AA2ACE9D3100C123FF /* CustomButton.swift in Sources */,
 				0B9242562AC411B200C123FF /* Color+Extension.swift in Sources */,
+				0B9242B42ACEAC1C00C123FF /* CreateAccountViewModel.swift in Sources */,
+				0B9242BA2ACEAF2200C123FF /* SeedView.swift in Sources */,
+				0B9242AD2ACE9DEB00C123FF /* CreateAccountView.swift in Sources */,
+				0B9242B12ACEA94C00C123FF /* ImportAccountView.swift in Sources */,
 				0B9242502AC4113100C123FF /* MainView.swift in Sources */,
 				0B92423D2AC3B87700C123FF /* EhterProjectApp.swift in Sources */,
+				0B9242AF2ACEA86F00C123FF /* LabelView.swift in Sources */,
+				0B92425B2ACCEE7A00C123FF /* TestViewModel.swift in Sources */,
+				0B9242A72ACE9C7900C123FF /* LoginView.swift in Sources */,
 				0B92424E2AC3B99C00C123FF /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +469,7 @@
 		};
 		0B9242482AC3B87800C123FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2233684B0356FAB46C970A11 /* Pods-EhterProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,6 +499,7 @@
 		};
 		0B9242492AC3B87800C123FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29458DFEC46B2C00C5565DF /* Pods-EhterProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -381,20 +551,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0B92424A2AC3B90100C123FF /* XCRemoteSwiftPackageReference "web3swift" */ = {
+		0B92429F2ACE548400C123FF /* XCRemoteSwiftPackageReference "web3swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/web3swift-team/web3swift.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
+				kind = exactVersion;
+				version = 3.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0B92424B2AC3B90100C123FF /* web3swift */ = {
+		0B9242A02ACE548400C123FF /* web3swift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0B92424A2AC3B90100C123FF /* XCRemoteSwiftPackageReference "web3swift" */;
+			package = 0B92429F2ACE548400C123FF /* XCRemoteSwiftPackageReference "web3swift" */;
 			productName = web3swift;
 		};
 /* End XCSwiftPackageProductDependency section */
