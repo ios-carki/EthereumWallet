@@ -27,6 +27,11 @@
 		0B9242B82ACEADA100C123FF /* MnemonicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242B72ACEADA100C123FF /* MnemonicBuilder.swift */; };
 		0B9242BA2ACEAF2200C123FF /* SeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242B92ACEAF2200C123FF /* SeedView.swift */; };
 		0B9242BC2ACEB1CA00C123FF /* .gitignore  in Resources */ = {isa = PBXBuildFile; fileRef = 0B9242BB2ACEB1CA00C123FF /* .gitignore  */; };
+		0B95E9122ACF994D00E065CC /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B95E9112ACF994D00E065CC /* CustomLoadingView.swift */; };
+		0B95E9142ACF9C5700E065CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B95E9132ACF9C5700E065CC /* Constants.swift */; };
+		0B95E9182ACF9CE400E065CC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B95E9172ACF9CE400E065CC /* MainViewModel.swift */; };
+		0B95E91A2ACF9D1B00E065CC /* CoinCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B95E9192ACF9D1B00E065CC /* CoinCardView.swift */; };
+		0B95E91C2ACF9D4700E065CC /* AddWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B95E91B2ACF9D4700E065CC /* AddWalletView.swift */; };
 		D8C7BBB8E2E73B3970F4D7C3 /* Pods_EhterProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E88117F6E475DECEF81D58 /* Pods_EhterProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +56,11 @@
 		0B9242B72ACEADA100C123FF /* MnemonicBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicBuilder.swift; sourceTree = "<group>"; };
 		0B9242B92ACEAF2200C123FF /* SeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedView.swift; sourceTree = "<group>"; };
 		0B9242BB2ACEB1CA00C123FF /* .gitignore  */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitignore "; sourceTree = "<group>"; };
+		0B95E9112ACF994D00E065CC /* CustomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
+		0B95E9132ACF9C5700E065CC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0B95E9172ACF9CE400E065CC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0B95E9192ACF9D1B00E065CC /* CoinCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCardView.swift; sourceTree = "<group>"; };
+		0B95E91B2ACF9D4700E065CC /* AddWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletView.swift; sourceTree = "<group>"; };
 		2233684B0356FAB46C970A11 /* Pods-EhterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhterProject.debug.xcconfig"; path = "Target Support Files/Pods-EhterProject/Pods-EhterProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D29458DFEC46B2C00C5565DF /* Pods-EhterProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhterProject.release.xcconfig"; path = "Target Support Files/Pods-EhterProject/Pods-EhterProject.release.xcconfig"; sourceTree = "<group>"; };
 		F5E88117F6E475DECEF81D58 /* Pods_EhterProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EhterProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +127,7 @@
 			children = (
 				0B9242542AC411A800C123FF /* Extensions */,
 				0B9242B72ACEADA100C123FF /* MnemonicBuilder.swift */,
+				0B95E9132ACF9C5700E065CC /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -170,6 +181,9 @@
 			children = (
 				0B9242A92ACE9D3100C123FF /* CustomButton.swift */,
 				0B9242AE2ACEA86F00C123FF /* LabelView.swift */,
+				0B95E9112ACF994D00E065CC /* CustomLoadingView.swift */,
+				0B95E9192ACF9D1B00E065CC /* CoinCardView.swift */,
+				0B95E91B2ACF9D4700E065CC /* AddWalletView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,9 +202,26 @@
 		0B9242B22ACEAC0E00C123FF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0B95E9162ACF9CDE00E065CC /* MainView */,
+				0B95E9152ACF9CD900E065CC /* Auth */,
 				0B9242B32ACEAC1C00C123FF /* CreateAccountViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0B95E9152ACF9CD900E065CC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0B95E9162ACF9CDE00E065CC /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				0B95E9172ACF9CE400E065CC /* MainViewModel.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		8A5F25E74926F72DF137A207 /* Pods */ = {
@@ -333,11 +364,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9242592ACCEE7200C123FF /* TestView.swift in Sources */,
+				0B95E9142ACF9C5700E065CC /* Constants.swift in Sources */,
 				0B9242B82ACEADA100C123FF /* MnemonicBuilder.swift in Sources */,
 				0B92423F2AC3B87700C123FF /* ContentView.swift in Sources */,
 				0B9242AA2ACE9D3100C123FF /* CustomButton.swift in Sources */,
 				0B9242562AC411B200C123FF /* Color+Extension.swift in Sources */,
 				0B9242B42ACEAC1C00C123FF /* CreateAccountViewModel.swift in Sources */,
+				0B95E91C2ACF9D4700E065CC /* AddWalletView.swift in Sources */,
+				0B95E9122ACF994D00E065CC /* CustomLoadingView.swift in Sources */,
 				0B9242BA2ACEAF2200C123FF /* SeedView.swift in Sources */,
 				0B9242AD2ACE9DEB00C123FF /* CreateAccountView.swift in Sources */,
 				0B9242B12ACEA94C00C123FF /* ImportAccountView.swift in Sources */,
@@ -345,8 +379,10 @@
 				0B92423D2AC3B87700C123FF /* EhterProjectApp.swift in Sources */,
 				0B9242AF2ACEA86F00C123FF /* LabelView.swift in Sources */,
 				0B92425B2ACCEE7A00C123FF /* TestViewModel.swift in Sources */,
+				0B95E91A2ACF9D1B00E065CC /* CoinCardView.swift in Sources */,
 				0B9242A72ACE9C7900C123FF /* LoginView.swift in Sources */,
 				0B92424E2AC3B99C00C123FF /* ContentViewModel.swift in Sources */,
+				0B95E9182ACF9CE400E065CC /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
