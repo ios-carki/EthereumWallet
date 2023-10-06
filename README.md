@@ -19,4 +19,7 @@ SwiftUI + web3swift
     - Generate MnemonicKey
     - Create Address
     - Get Balance
-  - Some view's Added 
+  - Some view's Added
+- 2023.10.06
+  - Design Flow Added
+  - CustomLoadingView Added
